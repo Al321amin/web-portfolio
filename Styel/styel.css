@@ -38,7 +38,7 @@
     color: #181818;
 }
 .section-description{
-    font-size: 15px;
+    font-size: 20px;
     color: #757575;
 }
 
@@ -101,13 +101,29 @@ nav li a{
 }
 /* main styel */
 main{
-    max-width: 1140px;
+    max-width: 1540px;
     margin: 0 auto;
 }
 .item-description{
     font-weight: bold;
+    font-size: 20px;
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/* skill section style */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px blueviolet;
+    border-radius: 05px;
+}
+/* More skill section style */
+.images-size{
+    height: 50px;
+    width: 50px;
 }
